@@ -1,0 +1,38 @@
+<head>
+<title>HL Discobowl</title>
+<%= stylesheet_link_tag "blackandgreen.css" %>
+</head>
+
+<body>
+	<div id=container>
+		<div id=header>
+			<h1>Discobowl</h1>
+			<p>Best bowling in the land</p>
+		</div>
+
+		<div id=content>
+			<%= text_field_tag('textBoxName')%>
+			<%= link_to welcome, :action => "addPlayer" %>
+
+
+			<%= link_to welcome, :action => "roll" %>
+
+			<h2>Scores</h2>
+		 
+			<table>
+		  		<tr>
+		    		<th>Name</th>
+				    <th>1</th>
+				    <th>2</th>
+				    <th>3</th>
+				    <th>4</th>
+				    <th>5</th>
+				    <th>6</th>
+				    <th>7</th>
+				    <th>8</th>
+				    <th>9</th>
+				    <th>10</th>    
+		  		</tr>
+		</div>
+	</div>
+</body>

@@ -1,0 +1,76 @@
+	body{
+		background-color: #000000;
+	}
+	
+	
+	#container {
+			width: 960px;
+			margin: auto;
+			background-color: #000000;
+			font-size: 10pt;
+			color: #00FF00;
+	}
+
+	.input {     
+		border: 1px solid #00FF00;
+		background-color: #000000;
+		color: #00FF00;
+	}
+	
+	.button {
+    border: 1px solid #00FF00;
+    background-color: #000000;
+	}
+	
+	
+
+	label {
+    display: block;
+    width: 150px;
+    float: left;
+    text-align: right;
+	}
+	
+	h1{ 
+		font-size: 24pt;
+	}
+
+	h3{ 
+			font-size: 14pt;
+	}
+
+	a{
+			color: #674846;
+
+	}
+	
+	a:visited{
+
+			color: #480607;
+	}
+	
+	a:hover, a:focus{
+			color: #AA98A9;
+	}						
+
+	#header   {
+			
+			letter-spacing:2px;
+			font-family: "Lucida Console", "Courier New";
+			padding:5px;
+						
+	}
+
+	#sideinfo {
+			font-family: Verdana, Arial;
+			padding: 5px;
+			float: right;
+			width: 450px;
+	}
+
+	#content {
+			font-family: Verdana, Arial;
+			float: left;
+			width: 400px;
+			padding: 5px;
+	}
