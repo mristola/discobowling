@@ -4,13 +4,20 @@
 </head>
 
 <body>
-	<div id=container>
+
+<div id=container>
 		<div id=header>
-			<h1>Discobowl</h1>
-			<p>Best bowling in the land</p>
+			<h1>Bowling score generator</h1>
+			<p>Add players and calculate score</p>
 		</div>
 
 		<div id=content>
+			<%= text_field_tag('textBoxName')%>
+			<%= link_to welcome, :action => "addPlayer" %>
+
+
+			<%= link_to welcome, :action => "roll" %>
+
 			<h2>Scores</h2>
 		 
 			<table>
@@ -27,10 +34,6 @@
 				    <th>9</th>
 				    <th>10</th>    
 		  		</tr>
-		  	</table>
-		</div>
-		<div id=sideinfo>
-			//to the game
 		</div>
 	</div>
 </body>
